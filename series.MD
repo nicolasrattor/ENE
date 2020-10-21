@@ -1,0 +1,7 @@
+# Construcción de series de empleo
+
+La Encuesta Nacional de Empleo (ENE) tiene como objetivo clasificar y caracterizar a la población en edad de trabajar, con residencia habitual en Chile, según su condición de actividad. Para este fin, utiliza fundamentalmente los estándares establecidos por la Conferencia Internacional de Estadísticos del Trabajo (CIET),  donde se establecen resoluciones y directrices referidas a conceptos, definiciones, clasificaciones y otros procedimientos, que se acuerdan como representativos, sobre estadísticas del trabajo. Esto no sólo facilita la comparación entre países, sino que también orienta el propio diseño metodológico de la encuesta, a partir de un fecundo intercambio de experiencias nacionales específicas sobre los más variados temas relacionados con la medición de empleo.
+
+La ENE es una de las encuestas de hogares más antiguas de América Latina, publicando datos de manera periódica desde 1966. Existen datos disponibles en la página Web del INE para las personas usuarias de información desde 2010 a la fecha, utilizando trimestres móviles como periodo de referencia para construir las estimaciones de los datos. Esta características permite conocer la evolución en el tiempo de los principales indicadores de empleo, así como también construir otros nuevos.
+
+El objetivo de estas notas es presentar una programación en R que permita calcular, de manera eficiente y reproducible por cualquier analista, series de datos con información mensual de empleo, aprovechando los datos disponibles. 
