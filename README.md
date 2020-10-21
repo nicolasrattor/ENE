@@ -1,10 +1,10 @@
-# ENE
+# Encuesta Nacional de Empleo (ENE)
 
 ## Fuente utilizada
 
 ![Detalle de bases ENE en sitio INE](https://github.com/eatoro/ENE/blob/main/link.png)
 
-## Antecedentes bibliográficos
+## Referencias bibliográficas
 
 ## Programaciones
 
