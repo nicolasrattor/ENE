@@ -1,17 +1,30 @@
 # Encuesta Nacional de Empleo (ENE)
 
-## Fuente utilizada
+La Encuesta Nacional de Empleo (ENE) tiene como objetivo clasificar y caracterizar a la población en edad de trabajar, con residencia habitual en Chile, según su condición de actividad. La ENE es una de las encuestas de hogares más antiguas de América Latina, publicando datos de manera periódica desde 1966. Existen datos disponibles en la página Web del INE para las personas usuarias de información desde 2010 a la fecha, utilizando trimestres móviles como periodo de referencia para construir las estimaciones de los datos. Esta características permite conocer la evolución en el tiempo de los principales indicadores de empleo, así como también construir otros nuevos.
 
-![Detalle de bases ENE en sitio INE](https://github.com/eatoro/ENE/blob/main/link.png)
+![Detalle de bases ENE en sitio INE](input/img/link.png?raw=true)
 
-## Referencias bibliográficas
 
-## Programaciones
+## Descarga y carga de datos
 
-* [Descarga de bases de datos](https://github.com/eatoro/ENE/blob/main/descarga.MD)
-    * [Formato Stata](https://github.com/eatoro/ENE/blob/main/download_stata.R)
-    * [Formato SPSS](https://github.com/eatoro/ENE/blob/main/download_spss.R)
-    * [Formato CSV](https://github.com/eatoro/ENE/blob/main/download_stata.R)
+* Descarga de bases de datos
+    * [Formato CSV](processing/00_download_csv.R)
+    
+* Cargar y compilar en Rdata
+    * [Formato CSV](processing/01_cargarbases.R)
 
-* [Construcción de series de empleo](https://github.com/eatoro/ENE/blob/main/series.MD)
-    * Series ENE desde 2010
+
+## Análisis
+
+* Horas de trabajo semanales 2010-2021
+    * [Asalariados sector privado](analysis/01_horas_trabajo_asalariados_priv.R)
+
+* Ocupados en agricultura
+    * [Ocupados en agricultura](analysis/02_agro.R)
+    
+* Trabajadoras de casa particular
+    * [En desarrollo]()
+    
+* Jornadas tiempo parcial
+    * [En desarrollo]()
+

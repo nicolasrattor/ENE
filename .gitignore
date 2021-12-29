@@ -1,0 +1,16 @@
+
+README.html
+.Rproj.user/
+*.csv
+*.sav
+input/data_Rdata/bases_ENE_1.Rdata
+input/data_Rdata/bases_ENE_2.Rdata
+input/data_Rdata/bases_ENE_3.Rdata
+analysis/Asalariados tiempo parcial.R
+analysis/Formales ocup con más de un empleo IRICMO.R
+analysis/jornadas, nac y padentro.R
+analysis/jornadas.R
+analysis/nacionalidad.R
+analysis/NT para comparar con IRICMO.R
+analysis/tcpinformalidad.R
+analysis/tcpinformalidad_comparada.R
