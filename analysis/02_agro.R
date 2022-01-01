@@ -1,8 +1,11 @@
 
 library(tidyverse)
+library(scales)
 
+
+gc()
 #### Cargar bases
-get(load('input/data_Rdata/bases_ENE_1.Rdata'))
+#get(load('input/data_Rdata/bases_ENE_1.Rdata'))
 get(load('input/data_Rdata/bases_ENE_2.Rdata'))
 get(load('input/data_Rdata/bases_ENE_3.Rdata'))
 
@@ -30,12 +33,7 @@ for (i in 1:nrow(base)){
 }
 
 
-
-plot(base$ocupados_agro,type = "l")
-
 # writexl::write_xlsx(base,"ocupados agricultura ENE formales.xlsx")
-
-library(scales)
 
 base %>% 
   mutate(fecha=stringr::str_remove_all(periodo,"ene_"),

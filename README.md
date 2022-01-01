@@ -8,23 +8,28 @@ La Encuesta Nacional de Empleo (ENE) tiene como objetivo clasificar y caracteriz
 ## Descarga y carga de datos
 
 * Descarga de bases de datos
-    * [Formato CSV](processing/00_download_csv.R)
+    * [en formato csv y sav](processing/00_download.R)
     
 * Cargar y compilar en Rdata
-    * [Formato CSV](processing/01_cargarbases.R)
+    * [crear tres archivos Rdata con todas las bases](processing/01_cargarbases.R)
 
 
 ## Análisis
 
 * Horas de trabajo semanales 2010-2021
     * [Asalariados sector privado](analysis/01_horas_trabajo_asalariados_priv.R)
-
+    
 * Ocupados en agricultura
     * [Ocupados en agricultura](analysis/02_agro.R)
     
 * Trabajadoras de casa particular
-    * [En desarrollo]()
-    
-* Jornadas tiempo parcial
-    * [En desarrollo]()
+    * [Porcentaje de informales](analysis/03_tcpinformalidad.R)
 
+
+## Gráficos resultantes
+
+![](output/graficos/horas/horas_trabajo_priv.png?raw=true)
+
+![](output/graficos/agro/ocupados_agricultura.png?raw=true)
+
+![](output/graficos/tcp/Gráfico_informales_porcentaje.png?raw=true)

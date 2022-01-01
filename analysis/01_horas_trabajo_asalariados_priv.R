@@ -41,7 +41,9 @@ for (i in 1:nrow(base)){
   }
   
   # diseño muestral
-  ds <- dfs[[i]] %>% as.data.frame() %>% as_survey_design(ids = conglomerado,   
+  ds <- dfs[[i]] %>% 
+    mutate(fact_cal=as.numeric(stringr::str_replace_all(fact_cal,",","."))) %>% 
+    as.data.frame() %>% as_survey_design(ids = conglomerado,   
                                         strata = estrato,     
                                         weights = fact_cal) 
   # horas
